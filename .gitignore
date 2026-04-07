@@ -1,0 +1,26 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Vector DB
+chroma_db/
+
+# Logs
+logs/
+
+# Generated test files
+data/sample_german.wav
+*.wav
+*.mp3
+
+# Environment
+.env
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/

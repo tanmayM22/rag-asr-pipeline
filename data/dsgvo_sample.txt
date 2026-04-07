@@ -1,0 +1,4 @@
+Datenschutz-Grundverordnung (DSGVO)
+Die Datenschutz-Grundverordnung (DSGVO) ist eine Verordnung der Europäischen Union, mit der die Regeln zur Verarbeitung personenbezogener Daten durch die meisten Datenverarbeiter geregelt werden.
+Maria Schneider, die bei der Mustermann GmbH in Berlin arbeitet, ist eine Expertin für Datenschutz und berät Unternehmen bezüglich der DSGVO. Sie betont immer wieder, dass personenbezogene Daten geschützt werden müssen.
+Artikel 5 DSGVO besagt, dass Daten rechtmäßig, nach Treu und Glauben und in einer für die betroffene Person nachvollziehbaren Weise verarbeitet werden müssen.
