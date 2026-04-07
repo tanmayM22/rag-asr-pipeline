@@ -1,4 +1,4 @@
-# Miinla AI Pipeline — Thesis Applicant Task
+# AI Pipeline — Thesis Applicant Task
 
 End-to-end prototype: Voice ASR → PII Redaction → RAG → Local LLM
 
@@ -114,20 +114,28 @@ python pipeline.py --audio component_c/sample_german.wav --doc dsgvo.txt
 ## Repository Structure
 
 ```
-miinla-task/
+rag-asr-pipeline/
 ├── README.md
 ├── requirements.txt
 ├── pipeline.py                  ← End-to-end integration script
 ├── component_a/
-│   └── llm_server.py            ← FastAPI + Ollama server
+│   └── LLM_serving.py           ← FastAPI + Ollama server
 ├── component_b/
-│   └── rag_pipeline.py          ← RAG pipeline
+│   └── Rag_Pipeline.py          ← RAG pipeline
 ├── component_c/
-│   └── asr.py                   ← Whisper ASR
+│   └── ASR.py                   ← Whisper ASR
 ├── component_d/
-│   └── pii_redaction.py         ← spaCy PII redaction
-├── evaluation/
-│   └── qa_pairs.json            ← 5 test Q&A pairs with results
-└── slides/
-    └── presentation.pdf
+│   └── PII_redaction.py         ← spaCy PII redaction
+├── data/
+│   ├── dsgvo_sample.txt         ← Sample German document
+│   ├── query.mp3                ← Test audio query
+│   └── sample_german.wav        ← Sample German voice recording
+├── Evalution/
+│   └── QA_Pairs.json            ← 5 test Q&A pairs with results
+├── logs/
+│   └── pipeline.log             ← Application execution logs
+├── Slides/
+│   └── Miinla_Task_Presentation.pdf
+└── utils/
+    └── logger.py                ← Logging configuration
 ```
