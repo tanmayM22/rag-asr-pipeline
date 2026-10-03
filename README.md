@@ -18,7 +18,7 @@ End-to-end prototype: Voice ASR → PII Redaction → RAG → Local LLM
 
 ## Model Choice
 
-- **LLM**: `phi3:mini` via Ollama — 2.7B parameters, ~3.1 GB RAM during inference, ~25–45 tok/s on M1 with Metal acceleration
+- **LLM**: `phi3:mini` via Ollama — 3.8B parameters, ~3.1 GB RAM during inference, ~25–45 tok/s on M1 with Metal acceleration
   - Alternative: `mistral:7b-instruct` is also viable on M1 8GB but may cause memory pressure alongside other apps
 - **Embeddings**: `intfloat/multilingual-e5-small` — fast, good German coverage, runs efficiently on CPU
 - **ASR**: Whisper `base` — automatically uses Apple MPS (Metal Performance Shaders) on M1 for ~10–20x real-time speed
